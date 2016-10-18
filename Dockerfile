@@ -17,4 +17,5 @@ RUN sudo apt-get install -y python2.7
 RUN sudo apt-get install -y python-dev
 RUN sudo apt-get install -y python-pip
 
+RUN echo "Hellow OWl"
 RUN cd /src;pip install -r requirements.txt
